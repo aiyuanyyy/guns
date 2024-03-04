@@ -19,9 +19,9 @@ public class PropertyInfoController {
 
     @GetResource(
             name = "在线用户查看界面",
-            path = {"/view/onlineUser"}
+            path = {"/view/propertyInfo"}
     )
     public String onlineUser() {
-        return "/modular/system/onlineUser/online_user.html";
+        return "/modular/system/propertyInfo/property_info.html";
     }
 }
