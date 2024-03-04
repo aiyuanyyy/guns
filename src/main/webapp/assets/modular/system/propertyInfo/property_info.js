@@ -7,7 +7,7 @@ layui.use(['table', 'HttpRequest'], function () {
      * 参数配置管理
      */
     var OnlineUser = {
-        tableId: "onlineUserTable"
+        tableId: "propertyInfoTable"
     };
 
     /**
